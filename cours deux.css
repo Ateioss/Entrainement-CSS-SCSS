@@ -64,27 +64,79 @@ section{
 
 /**Passage au troisième bloc**/
 .blocA3-class{
-    background-color: orangered;
     display: flex;
-    flex-direction: row;
-   
+    flex-direction: row; 
 }
+.sous-bloc1-A3{
+    width: 50%;
+    background-color: rgb(58, 89, 90); 
+    padding: 60px;
+    text-align: center;
+ }
+ .sous-bloc2-A3{
+     width: 50%;
+     background-color: rgb(74, 162, 220); 
+     padding: 60px;
+     text-align: center;
+ }
+
+
+/*Passage au Quatrieme bloc*/
 .blocA4-class{
-    background-color: yellowgreen;
     display: flex;
     flex-direction: row;
 }
+.sous-bloc1-A4{
+    background-color: rgb(230, 121, 12); 
+    padding: 60px;
+    text-align: center;
+    width: 100%;
+}
+/**passage au container B**/
 .container-B{
     display: flex;
     flex-direction: row;
     width: 50%;
 }
 .blocB1-class{
-    background-color: pink;
+    background-color: rgb(165, 95, 203);
     width: 30%;
-   
+    justify-content: center;
+    display: flex;
+    align-items: center;  
 }
+
+/**passage au sous bloc du bloc B2 **/
 .blocB2-class{
-    background-color: violet;
+    
     width: 70%;
+}
+.sous-bloc1-B1{
+    background-color: rgb(108, 241, 194); 
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**passage au sous bloc du bloc B2**/
+.sous-bloc1-B2{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+.sous-sous-bloc1-B2-1{
+    background-color: rgb(241, 108, 206);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sous-sous-bloc1-B2-2{
+    background-color: rgb(241, 108, 157);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
