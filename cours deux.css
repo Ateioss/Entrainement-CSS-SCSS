@@ -1,0 +1,90 @@
+*{
+    box-sizing:border-box;
+    margin: 0%;
+    padding: 0%;
+}
+section{
+    display: flex;
+    flex-direction:row;
+}
+.container-A{
+    display: flex;
+   flex-direction: column;
+   width: 50%;
+}
+
+.blocA1-class{
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+}
+
+.sous-bloc1-A1{
+    background-color: rgb(213, 70, 99);
+    width: 34%;
+    text-align: center;
+    padding: 80px;
+}
+
+.sous-bloc2-A1{
+    background-color: rgb(70, 213, 106);
+    width: 34%;
+    text-align: center;
+    padding: 80px;
+}
+
+.sous-bloc3-A1{
+    background-color: rgb(70, 213, 206);
+    width: 34%;
+    text-align: center;
+    padding: 80px;
+}
+/**Passage au second blocs**/
+
+
+.blocA2-class{
+    display: flex;
+    flex-direction: row;
+}
+.sous-bloc1-A2{
+   width: 83%;
+   background-color: cadetblue; 
+   padding: 60px;
+   text-align: center;
+}
+.sous-bloc2-A2{
+    width: 17%;
+    background-color: rgb(220, 220, 74); 
+    padding: 60px;
+    text-align: center;
+}
+
+
+/**Passage au troisième bloc**/
+.blocA3-class{
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+   
+}
+.blocA4-class{
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: row;
+}
+.container-B{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.blocB1-class{
+    background-color: pink;
+    width: 30%;
+   
+}
+.blocB2-class{
+    background-color: violet;
+    width: 70%;
+}
