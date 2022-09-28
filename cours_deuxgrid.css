@@ -1,0 +1,89 @@
+.grid-container{
+    display: grid;
+    /*grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto; */
+    grid-template-columns: repeat (12, auto); /* on créé une grille de 12 colonne avec taille identique pour chaque colonne : auto */
+}
+
+.bloc1{
+    grid-area: 1/1/2/3;
+    background-color: rgb(240, 47, 47);
+    padding: 80px;
+    text-align: center;
+}
+
+.bloc2{
+    grid-area: 1/3/2/5;
+    background-color: rgb(53, 240, 47);
+    padding: 80px;
+    text-align: center;
+}
+
+.bloc3{
+    grid-area: 1/5/2/7;
+    background-color: rgb(47, 79, 240);
+    padding: 80px;
+    text-align: center;
+}
+
+.bloc4{
+    grid-area: 1/7/5/9;
+    background-color: rgb(153, 0, 254);
+    padding: 80px;
+    text-align: center;
+}
+
+.bloc5{
+    grid-area: 2/6/3/7;
+    background-color: rgb(28, 197, 107);
+    padding: 40px;
+    text-align: center;
+}
+
+.bloc6{
+    grid-area: 2/1/3/6;
+    background-color: rgb(214, 38, 147);
+    padding: 80px;
+    text-align: center;
+}
+
+.bloc7{
+    grid-area: 3/4/4/7;
+    background-color: rgb(197, 238, 49);
+    padding: 80px;
+    text-align: center;
+}
+
+.bloc8{
+    grid-area: 3/1/4/4;
+    background-color: rgb(49, 181, 238);
+    padding: 80px;
+    text-align: center;
+}
+
+.bloc9{
+    grid-area: 4/1/5/7;
+    background-color: rgb(236, 118, 21);
+    padding: 80px;
+    text-align: center;
+}
+
+.bloc10{
+    grid-area: 1/9/3/13;
+    background-color: rgb(236, 118, 21);
+    padding: 80px;
+    text-align: center;
+}
+
+.bloc11{
+    grid-area: 3/9/5/11;
+    background-color: rgb(52, 32, 236);
+    padding: 80px;
+    text-align: center;
+}
+
+.bloc12{
+    grid-area: 3/11/5/13;
+    background-color: rgb(32, 236, 39);
+    padding: 80px;
+    text-align: center;
+}
