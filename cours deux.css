@@ -3,62 +3,59 @@
     margin: 0%;
     padding: 0%;
 }
+
+body{
+    height: 100vh;/**le body occupe la hauteur totale de l'écran**/
+}
+
 section{
     display: flex;
     flex-direction:row;
+    height: 100%;
 }
+
 .container-A{
-    display: flex;
+   display: flex;
    flex-direction: column;
    width: 50%;
 }
 
 .blocA1-class{
-    
     display: flex;
     flex-direction: row;
     width: 100%;
-   
+    height: 25%;
 }
 
 .sous-bloc1-A1{
     background-color: rgb(213, 70, 99);
-    width: 34%;
-    text-align: center;
-    padding: 80px;
+    width: 25%;
 }
 
 .sous-bloc2-A1{
     background-color: rgb(70, 213, 106);
-    width: 34%;
-    text-align: center;
-    padding: 80px;
+    width: 25%;
 }
 
 .sous-bloc3-A1{
     background-color: rgb(70, 213, 206);
-    width: 34%;
-    text-align: center;
-    padding: 80px;
+    width: 50%;
 }
-/**Passage au second blocs**/
 
+/**Passage au second blocs**/
 
 .blocA2-class{
     display: flex;
     flex-direction: row;
+    height: 25%;
 }
 .sous-bloc1-A2{
-   width: 83%;
+   width: 75%;
    background-color: cadetblue; 
-   padding: 60px;
-   text-align: center;
 }
 .sous-bloc2-A2{
-    width: 17%;
+    width: 25%;
     background-color: rgb(220, 220, 74); 
-    padding: 60px;
-    text-align: center;
 }
 
 
@@ -66,18 +63,15 @@ section{
 .blocA3-class{
     display: flex;
     flex-direction: row; 
+    height: 25%;
 }
 .sous-bloc1-A3{
     width: 50%;
     background-color: rgb(58, 89, 90); 
-    padding: 60px;
-    text-align: center;
  }
  .sous-bloc2-A3{
      width: 50%;
      background-color: rgb(74, 162, 220); 
-     padding: 60px;
-     text-align: center;
  }
 
 
@@ -85,39 +79,37 @@ section{
 .blocA4-class{
     display: flex;
     flex-direction: row;
+    height: 25%;
 }
 .sous-bloc1-A4{
     background-color: rgb(230, 121, 12); 
-    padding: 60px;
     text-align: center;
     width: 100%;
 }
+
 /**passage au container B**/
+
 .container-B{
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 50%; 
 }
+
 .blocB1-class{
     background-color: rgb(165, 95, 203);
     width: 30%;
-    justify-content: center;
-    display: flex;
-    align-items: center;  
 }
 
 /**passage au sous bloc du bloc B2 **/
+
 .blocB2-class{
-    
     width: 70%;
 }
+
 .sous-bloc1-B1{
     background-color: rgb(108, 241, 194); 
     width: 100%;
     height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /**passage au sous bloc du bloc B2**/
@@ -129,14 +121,8 @@ section{
 .sous-sous-bloc1-B2-1{
     background-color: rgb(241, 108, 206);
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .sous-sous-bloc1-B2-2{
     background-color: rgb(241, 108, 157);
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
